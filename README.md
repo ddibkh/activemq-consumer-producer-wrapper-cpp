@@ -5,7 +5,7 @@ gcc 버전 : 4.7.0
 dependency : libapr(libapr-1.3.12), libuuid(libuuid-1.0.3), openssl (0.9.8m 이상)   
    
    
-##1. activemq cpp 라이브러리 빌드   
+## activemq cpp 라이브러리 빌드   
 	- activemq CMS cpp 라이브러리 다운로드 (activemq-cpp-library-3.9.5)   
 		https://activemq.apache.org/components/cms/download/   
    
@@ -25,7 +25,7 @@ dependency : libapr(libapr-1.3.12), libuuid(libuuid-1.0.3), openssl (0.9.8m 이�
 		$>make install   
    
    
-##2. activemq 브로커 설치 및 실행 (jre 1.8 버전 이상)   
+## activemq 브로커 설치 및 실행 (jre 1.8 버전 이상)   
 > 패키지 다운로드 (apache-activemq-5.15.11)
 >>http://activemq.apache.org/download-archives
 
