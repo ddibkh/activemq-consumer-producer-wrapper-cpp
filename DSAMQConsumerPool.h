@@ -103,7 +103,7 @@ private:
 TM set< CLS* > MGR::m_sTask;
 TM MGR* MGR::m_threadPool = NULL;
 TM string MGR::m_strBrokerURI = "";		//failover:(tcp://127.0.0.1:61616?connection.dispatchAsync=false)
-TM string MGR::m_strDestURI = "";		//observer.list.queue.$hostid?consumer.prefetchSize=1
+TM string MGR::m_strDestURI = "";		//queuename?consumer.prefetchSize=1
 TM bool MGR::m_bUseTopic = false;
 TM bool MGR::m_bClientAck = true;
 TM int MGR::m_nTimeout = 3000;

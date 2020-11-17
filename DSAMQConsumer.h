@@ -96,7 +96,7 @@ private:
 };
 
 //failover:(tcp://127.0.0.1:61616?connection.dispatchAsync=false)
-//observer.list.queue?consumer.prefetchSize=1
+//$queuename?consumer.prefetchSize=1
 T CLS::CDSAMQConsumer(std::shared_ptr<activemq::cmsutil::SessionPool> sessionpool,
     const std::string &destURI,
 	const int &nTaskID,
