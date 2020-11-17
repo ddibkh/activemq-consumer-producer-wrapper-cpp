@@ -1,0 +1,5 @@
+OBJS= \
+	$(OBJ_PATH)/DSAMQProducer.o \
+	$(OBJ_PATH)/DSAMQProducerPoolMgr.o \
+	$(OBJ_PATH)/example.o
+
